@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 find_package(OpenCV 3.4.3 EXACT REQUIRED CONFIG)
 add_subdirectory(extern/Catch2)
 
+enable_testing()
+
 # Add our targets
 add_subdirectory(src)
-
-enable_testing()

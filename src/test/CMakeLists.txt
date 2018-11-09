@@ -9,3 +9,4 @@ target_link_libraries(lmfi-test
         Catch2::Catch
         lmfi
         )
+add_test(lmfi-test lmfi-test)
